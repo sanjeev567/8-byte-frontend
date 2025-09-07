@@ -6,7 +6,7 @@ export const apiSlice = createApi({
   tagTypes: ["portfolio"],
 
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:8000/api",
+    baseUrl: import.meta.env.VITE_API_URI,
     prepareHeaders(headers) {
       // headers.set("Authorization", `Bearer ${LocalSessionManager.readToken()}`);
       // headers.set("X-Platform", "web");
