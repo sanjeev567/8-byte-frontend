@@ -15,7 +15,3 @@ const App = () => {
 };
 
 export default App;
-
-const Test = () => {
-  return <div>Test Component</div>;
-};
